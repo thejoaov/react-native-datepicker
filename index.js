@@ -43,9 +43,9 @@ class datepicker extends Component {
           date={this.state.date}
           mode="date"
           placeholder="placeholder"
-          format="YYYY-MM-DD"
-          minDate="2016-05-01"
-          maxDate="2016-06-01"
+          format="DD-MM-YYYY"
+          minDate="01-01-2019"
+          maxDate="01-01-2020"
           confirmBtnText="Confirm"
           cancelBtnText="Cancel"
           iconSource={require('./google_calendar.png')}
@@ -67,7 +67,7 @@ class datepicker extends Component {
           style={{width: 200}}
           date={this.state.datetime}
           mode="datetime"
-          format="YYYY-MM-DD HH:mm"
+          format="DD-MM-YYYY HH:mm"
           confirmBtnText="Confirm"
           cancelBtnText="Cancel"
           showIcon={false}
@@ -78,7 +78,7 @@ class datepicker extends Component {
           style={{width: 200}}
           date={this.state.datetime1}
           mode="datetime"
-          format="YYYY-MM-DD HH:mm"
+          format="DD-MM-YYYY HH:mm"
           confirmBtnText="Confirm"
           cancelBtnText="Cancel"
           customStyles={{
